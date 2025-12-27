@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2025, 9:48:30 PM
+    Author     : Afrina Natasha
+*/
+
+body {
+    /* ===== Global ===== */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f6ecff;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Card Layout ===== */
+.card{
+    width: 900px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    color: #6b006b;
+    margin-bottom: 30px;
+}
+
+/* ===== Form ===== */
+form label{
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #6b006b;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #d6c6ff;
+    background-color: #eef4ff;
+    font-size: 14px;
+}
+
+form input:focus,
+form textarea:focus{
+    outline: none;
+    border-color: #b88cff;
+    background-color: #ffffff;
+}
+
+/* ===== Submit Button ===== */
+button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #caa7ff, #b98cff);
+    color: #3a004d;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(90deg, #b98cff, #a87cff);
+}
+
+/* ===== Profile Summary ===== */
+.label{
+    font-weight: bold;
+    color: #6b006b;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.intro-box{
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #faf6ff;
+    border-left: 6px solid #e6cfff;
+    border-radius: 8px;
+}
+
+/* ===== Table ===== */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+thead{
+    background: linear-gradient(90deg, #6b006b, #8a2b8f);
+    color: white;
+}
+
+th, td{
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e0d6ff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #faf6ff;
+}
+
+tbody tr:hover{
+    background-color: #f1e9ff;
+}
+
+/* ===== No Column ===== */
+th.no, td.no{
+    width: 60px;
+    text-align: center;
+}
+
+/* ===== Links ===== */
+a{
+    color: #6b006b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+}
+
+

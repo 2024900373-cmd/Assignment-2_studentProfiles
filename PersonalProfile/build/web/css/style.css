@@ -1,0 +1,188 @@
+/* ===== GLOBAL ===== */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f6ecff;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== CARD / BOX ===== */
+.card,
+.box{
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADING ===== */
+h2{
+    text-align: center;
+    color: #6b007b;
+    margin-bottom: 30px;
+}
+
+/* ===== FORM ===== */
+label{
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+    color: #6b007b;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #d7b8ff;
+    background-color: #eef5ff;
+    font-size: 14px;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+    border-color: #b388ff;
+    background-color: #ffffff;
+}
+
+/* ===== BUTTON ===== */
+button{
+    width: 100%;
+    margin-top: 28px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #d9b8ff, #caa7ff);
+    color: #4b0066;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(90deg, #caa7ff, #b999ff);
+}
+
+/* ===== PROFILE SUMMARY ===== */
+p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.label{
+    font-weight: bold;
+    color: #6b007b;
+}
+
+/* ===== INTRO BOX ===== */
+.intro-box{
+    margin-top: 24px;
+    padding: 20px 24px;
+    background: linear-gradient(180deg, #ffffff, #faf6ff);
+    border: 1px solid #e9d7ff;
+    border-left: 6px solid #caa7ff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.intro-box .label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.intro-box p{
+    margin: 0;
+    line-height: 1.6;
+    color: #2e2e2e;
+}
+
+/* ===== FILTER ===== */
+.filter{
+    margin-bottom: 20px;
+}
+
+.filter label{
+    margin-bottom: 6px;
+}
+
+/* ===== TABLE WRAPPER ===== */
+.table-wrap{
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* ===== TABLE ===== */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 20px;
+}
+
+th,
+td{
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+th{
+    background-color: #5b0b6b;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+td{
+    border-bottom: 1px solid #e7dbff;
+}
+
+/* ===== COLUMN WIDTH ===== */
+th:nth-child(1), td:nth-child(1){ width: 6%; }
+th:nth-child(2), td:nth-child(2){ width: 14%; }
+th:nth-child(3), td:nth-child(3){ width: 12%; }
+th:nth-child(4), td:nth-child(4){ width: 12%; }
+th:nth-child(5), td:nth-child(5){ width: 24%; }
+th:nth-child(6), td:nth-child(6){ width: 12%; }
+th:nth-child(7), td:nth-child(7){ width: 20%; }
+
+/* ===== EMAIL COLUMN ===== */
+td.email-col a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ===== HOBBIES COLUMN ===== */
+td.hobbies-col{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ===== INTRO COLUMN ===== */
+td.intro-col{
+    white-space: normal;
+    overflow: visible;
+    word-break: break-word;
+}
+
+/* ===== LINKS ===== */
+a{
+    color: #6b007b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
